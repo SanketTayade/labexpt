@@ -41,9 +41,15 @@ sudo docker exec -it [id] bash
 # Experiment 9  Build an image for sample web app using docker
 
 git clone https://github.com/chinmay770/docker-nginx 
+
 cd docker-nginx/
+
 sudo docker build -t rait-web-app .
+
 sudo docker images
+
 sudo docker run -it -p 70:80 rait-web-app bash 
+
 cd /var/www/html/
+
 Service nginx start
