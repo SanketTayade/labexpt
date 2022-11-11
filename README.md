@@ -20,7 +20,7 @@ Build > Framework/pom.xml > clean install -Dbrowser=$browser -DurlToBeTested=$Ap
 ------------------------------------------------------------------
 
 
-# Experiment 8
+# Experiment 8  Install and execute docker cmmds
 
 sudo apt-get update
 sudo apt-get install docker.io
@@ -33,7 +33,7 @@ sudo docker exec -it [id] bash
 ------------------------------------------------------------------
 
 
-# Experiment 9
+# Experiment 9  Build an image for sample web app using docker
 
 git clone https://github.com/chinmay770/docker-nginx 
 cd docker-nginx/
