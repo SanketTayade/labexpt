@@ -1,4 +1,4 @@
-# Experiment 5 build pipeline job
+# Experiment 5 Build pipeline job
 
 Source Code Management > git > https://github.com/chinmay770/hello-world
 
@@ -6,7 +6,7 @@ Source Code Management > git > https://github.com/chinmay770/hello-world
 ------------------------------------------------------------------
 
 
-# Experiment 7 selenium
+# Experiment 7 Selenium
 
 Application > https://classic.cmpro.com/index.html
 Browser > Chrome Firefox IE
