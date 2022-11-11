@@ -40,5 +40,5 @@ cd docker-nginx/
 sudo docker build -t rait-web-app .
 sudo docker images
 sudo docker run -it -p 70:80 rait-web-app bash 
-cd /var/www/html/
+#cd /var/www/html/
 Service nginx start
