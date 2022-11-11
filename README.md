@@ -23,10 +23,15 @@ Build > Framework/pom.xml > clean install -Dbrowser=$browser -DurlToBeTested=$Ap
 # Experiment 8  Install and execute docker cmmds
 
 sudo apt-get update
+
 sudo apt-get install docker.io
+
 sudo docker pull ubuntu
+
 sudo docker run -it -d ubuntu
+
 sudo docker ps
+
 sudo docker exec -it [id] bash
 
 
